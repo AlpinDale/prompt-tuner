@@ -4,6 +4,9 @@ Soft Prompt Tuner is a library for training soft prompts for transformer causal 
 Refer to the original paper for a model in-depth explanation: https://arxiv.org/abs/2104.08691
 
 
+> [!WARNING]  
+> The repository is still incomplete. Many critical features are missing, and they will be added soon.
+
 ## What is a Soft Prompt?
 Soft prompt modules are small binary files that can adjust the behaviour and textual biases of an LLM. The training process is similar to a standard finetune and/or LoRA tune.
 
