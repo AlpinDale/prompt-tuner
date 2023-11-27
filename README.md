@@ -33,14 +33,14 @@ output = generator(prompt)
 ```
 SoftPrompts can be concatenated at any point into your context as if they were strings. When the context is printed, SoftPrompts show up as human-readable tags for debugging. They also tokenize to the underlying number of tokens for easy budgeting.
 
-See the [text generation notebook](text_generation.ipynb) for pointers on adding prompt_tuner to your generator.
+See the [text generation notebook](notebooks/text_generation.ipynb) for pointers on adding prompt_tuner to your generator.
 
 
 ## Training
 
-For finetuneing soft prompts, check out the [finetune notebook](tuning_funetune.ipynb).
+For finetuneing soft prompts, check out the [finetune notebook](notebooks/tuning_funetune.ipynb).
 
-For AI text adventures or writing, the [World Info](tuning_world_info.ipynb) can be used.
+For AI text adventures or writing, the [World Info](notebooks/tuning_world_info.ipynb) can be used.
 
 ## Limitations (for now)
 
