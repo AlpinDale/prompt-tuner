@@ -43,7 +43,7 @@ For AI text adventures or writing, the [World Info](tuning_world_info.ipynb) can
 
 - Still under testing.
 - The Huggingface Trainer class should work as long as you set params=[model.get_soft_params()] on the optimizer, but it will still save full model checkpoints.
-- mkultra syncs a set of special tokens between its tokenizers the scenes. Adding your own tokens may result in unexpected behaviour.
+- prompt_tuner syncs a set of special tokens between its tokenizers the scenes. Adding your own tokens may result in unexpected behaviour.
 
 ## Credits
 This work is forked off [corolla johnson](https://github.com/corolla-johnson/mkultra) and [VE FORBRYDERNE](https://github.com/VE-FORBRYDERNE/mkultra)'s works. 

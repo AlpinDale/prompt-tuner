@@ -1,7 +1,7 @@
 from transformers import (GPT2LMHeadModel, GPTNeoForCausalLM,
                           GPTJForCausalLM, LlamaForCausalLM,
                           MistralForCausalLM, TextGenerationPipeline)
-from mkultra.soft_prompt import SoftPrompt
+from prompt_tuner.soft_prompt import SoftPrompt
 import torch
 
 EXTRA_ALLOWED_MODELS = [

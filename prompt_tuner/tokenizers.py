@@ -1,5 +1,5 @@
 from transformers import AutoTokenizer, AutoTokenizerFast
-from mkultra.soft_prompt import SoftPrompt
+from prompt_tuner.soft_prompt import SoftPrompt
 
 class LlamaSPTokenizerFast(AutoTokenizerFast):
     def __init__(
